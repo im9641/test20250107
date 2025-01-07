@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영수증 예시</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="receipt">
+        <header>
+            <h1>KOVAN 온라인 매출증빙</h1>
+        </header>
+        <table>
+            <tr>
+                <th>구매자명</th>
+                <td>김대리님</td>
+            </tr>
+            <tr>
+                <th>구매일시</th>
+                <td>2024-12-30 17:07:04</td>
+            </tr>
+            <tr>
+                <th>결제방법</th>
+                <td>신용카드</td>
+            </tr>
+            <tr>
+                <th>상품명</th>
+                <td>올레빠TV_올티튜브_정액권</td>
+            </tr>
+            <tr>
+                <th>카드종류</th>
+                <td>비씨카드</td>
+            </tr>
+            <tr>
+                <th>카드번호</th>
+                <td>55892098****344*</td>
+            </tr>
+            <tr>
+                <th>거래일련번호</th>
+                <td>35679141</td>
+            </tr>
+            <tr>
+                <th>결제 서비스 업체 정보</th>
+                <td>결제금액 총액</td>
+            </tr>
+            <tr>
+                <th>원본금액</th>
+                <td>611,100원</td>
+            </tr>
+            <tr>
+                <th>부가세</th>
+                <td>61,110원</td>
+            </tr>
+            <tr>
+                <th>결제총액</th>
+                <td>672,210원</td>
+            </tr>
+            <tr>
+                <th>사업자등록번호</th>
+                <td>2138140742</td>
+            </tr>
+            <tr>
+                <th>공급자 주소</th>
+                <td>강남구 도곡로62길 10</td>
+            </tr>
+            <tr>
+                <th>거래금액</th>
+                <td>672,210원</td>
+            </tr>
+            <tr>
+                <th>상품정보</th>
+                <td>대표자명</td>
+            </tr>
+            <tr>
+                <th>대표자</th>
+                <td>이대표</td>
+            </tr>
+            <tr>
+                <th>사업자등록번호</th>
+                <td>6448800943</td>
+            </tr>
+            <tr>
+                <th>사업자주소</th>
+                <td>서울 강남구 테헤란로 135 (역삼동, 양재빌딩 A동 15층 1504호)</td>
+            </tr>
+        </table>
+        <footer>
+            <p>사이트 주소(URL): https://www.mordor.co.kr/ordermain/S2407DX1...</p>
+        </footer>
+    </div>
+</body>
+</html>
