@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>영수증 예시</title>
+    <title>KOVAN 온라인매출전표</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -17,18 +17,31 @@
             min-height: 100vh;
         }
 
-        .receipt {
+        .receipt-container {
+            position: relative;
             background: white;
-            width: 90%;
-            max-width: 500px;
+            width: 360px; /* 컴팩트한 고정 크기 */
             border: 1px solid #ccc;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
             border-radius: 8px;
             padding: 20px;
-            margin: 20px;
         }
 
-        header h1 {
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #f44336;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .receipt-container header h1 {
             text-align: center;
             border-bottom: 2px solid #ccc;
             padding-bottom: 10px;
@@ -73,12 +86,20 @@
         footer a:hover {
             text-decoration: underline;
         }
+
+        .contact {
+            margin-top: 10px;
+            text-align: left;
+            font-size: 0.9em;
+            color: #555;
+        }
     </style>
 </head>
 <body>
-    <div class="receipt">
+    <div class="receipt-container">
+        <button class="close-btn" onclick="closeReceipt()">×</button>
         <header>
-            <h1>KOVAN 온라인 매출전표</h1>
+            <h1>KOVAN 온라인매출전표</h1>
         </header>
         <table>
             <tr>
@@ -142,9 +163,18 @@
                 <td>서울 강남구 테헤란로 135 (역삼동, 양재빌딩 A동 15층 1504호)</td>
             </tr>
         </table>
+        <div class="contact">
+            <strong>문의사항:</strong> 1566-9999
+        </div>
         <footer>
             <p>사이트 주소(URL): <a href="https://www.mordor.co.kr/ordermain/S2407DX1..." target="_blank">https://www.mordor.co.kr/ordermain/S2407DX1...</a></p>
         </footer>
     </div>
+
+    <script>
+        function closeReceipt() {
+            document.querySelector('.receipt-container').style.display = 'none';
+        }
+    </script>
 </body>
 </html>
