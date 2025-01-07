@@ -19,10 +19,11 @@
 
         .receipt {
             background: white;
-            width: 80%;
-            max-width: 400px;
+            width: 90%;
+            max-width: 500px;
             border: 1px solid #ccc;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            border-radius: 8px;
             padding: 20px;
             margin: 20px;
         }
@@ -32,6 +33,7 @@
             border-bottom: 2px solid #ccc;
             padding-bottom: 10px;
             margin-bottom: 20px;
+            color: #333;
         }
 
         table {
@@ -41,22 +43,35 @@
 
         th, td {
             border-bottom: 1px solid #eee;
-            padding: 10px;
-            text-align: left;
+            padding: 8px 12px;
         }
 
         th {
             background-color: #f9f9f9;
             font-weight: bold;
+            text-align: left;
+            color: #555;
         }
 
         td {
             text-align: right;
+            color: #333;
         }
 
         footer {
             text-align: center;
             padding-top: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -88,15 +103,11 @@
             </tr>
             <tr>
                 <th>카드번호</th>
-                <td>55892098****344*</td>
+                <td>5589-2098-****-344*</td>
             </tr>
             <tr>
                 <th>거래일련번호</th>
                 <td>35679141</td>
-            </tr>
-            <tr>
-                <th>결제 서비스 업체 정보</th>
-                <td>결제금액 총액</td>
             </tr>
             <tr>
                 <th>원본금액</th>
@@ -112,19 +123,11 @@
             </tr>
             <tr>
                 <th>사업자등록번호</th>
-                <td>2138140742</td>
+                <td>213-81-40742</td>
             </tr>
             <tr>
                 <th>공급자 주소</th>
                 <td>강남구 도곡로62길 10</td>
-            </tr>
-            <tr>
-                <th>거래금액</th>
-                <td>672,210원</td>
-            </tr>
-            <tr>
-                <th>상품정보</th>
-                <td>대표자명</td>
             </tr>
             <tr>
                 <th>대표자</th>
@@ -132,7 +135,7 @@
             </tr>
             <tr>
                 <th>사업자등록번호</th>
-                <td>6448800943</td>
+                <td>644-88-00943</td>
             </tr>
             <tr>
                 <th>사업자주소</th>
@@ -140,7 +143,7 @@
             </tr>
         </table>
         <footer>
-            <p>사이트 주소(URL): https://www.mordor.co.kr/ordermain/S2407DX1...</p>
+            <p>사이트 주소(URL): <a href="https://www.mordor.co.kr/ordermain/S2407DX1..." target="_blank">https://www.mordor.co.kr/ordermain/S2407DX1...</a></p>
         </footer>
     </div>
 </body>
